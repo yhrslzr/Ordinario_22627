@@ -89,5 +89,12 @@ fun PantallaLista(opcion: Int) {
 
             }
         }
+
+        Button(onClick = { navController.navigate("inicial") }) {
+
+            Text(text = "Regresar")
+
+        }
+
     }
 }

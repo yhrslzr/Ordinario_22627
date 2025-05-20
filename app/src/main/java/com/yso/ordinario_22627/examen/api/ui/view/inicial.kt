@@ -34,7 +34,7 @@ import java.lang.Exception
 
 @Preview(showBackground = true)
 @Composable
-fun NavegaciónInicial() {
+fun NavegacionIniciaL() {
 
     val navController: NavHostController = rememberNavController()
 
